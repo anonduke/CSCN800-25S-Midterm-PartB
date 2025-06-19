@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAIML Midterm Part B - Fasalu Rahman</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .header {
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .tags {
+            margin: 1rem 0;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #ffffff33;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0.5rem;
+            font-size: 0.9rem;
+        }
+        .lab-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .lab-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .info-section {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">AAIML Midterm Part B</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classification.html">Wine Classification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logistic_regression.html">Iris Classification</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>AAIML Midterm Part B</h1>
+            <h3>Fasalu Rahman Kottaparambu 8991782</h3>
+            <div class="tags">
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Classification</span>
+                <span class="tag">Python</span>
+                <span class="tag">Data Science</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Available Labs</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card lab-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Lab 1: Wine Classification</h5>
+                        <p class="card-text">Classification of wines into 3 categories using Gaussian and Multinomial Naive Bayes on the Wine dataset.</p>
+                        <a href="classification.html" class="btn btn-primary">Explore Lab</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card lab-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Lab 2: Iris Classification</h5>
+                        <p class="card-text">Classification of Iris flowers into 3 species using Logistic Regression with cross-validation on the Iris dataset.</p>
+                        <a href="logistic_regression.html" class="btn btn-primary">Explore Lab</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="info-section text-center">
+                    <h5>Datasets</h5>
+                    <p>Wine, Iris</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="info-section text-center">
+                    <h5>Methods</h5>
+                    <p>Naive Bayes, Logistic Reg.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="info-section text-center">
+                    <h5>Type</h5>
+                    <p>Classification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Source Code Section -->
+    <section class="container text-center my-5">
+        <h2>Source Code</h2>
+        <p>Explore the complete implementation and documentation</p>
+        <a href="https://github.com/anonduke/CSCN800-25S-Midterm-PartB" class="btn btn-outline-dark">View on GitHub</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Fasalu Rahman. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
